@@ -6,9 +6,10 @@ interface MagneticButtonProps {
   className?: string;
   onClick?: () => void;
   ariaLabel?: string;
+  as?: any;
 }
 
-export const MagneticButton: React.FC<MagneticButtonProps> = ({ children, className, onClick, ariaLabel }) => {
+export const MagneticButton: React.FC<MagneticButtonProps> = ({ children, className, onClick, ariaLabel, as: Component = "button" }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const ref = useRef<HTMLDivElement>(null);
 
@@ -33,13 +34,13 @@ export const MagneticButton: React.FC<MagneticButtonProps> = ({ children, classN
       className={cn("relative transition-transform duration-200 ease-out", className)}
       style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
     >
-      <button 
+      <Component 
         onClick={onClick}
-        className="w-full h-full cursor-pointer"
+        className="w-full h-full cursor-pointer border-none bg-transparent p-0 block appearance-none outline-none"
         aria-label={ariaLabel}
       >
         {children}
-      </button>
+      </Component>
     </div>
   );
 };
