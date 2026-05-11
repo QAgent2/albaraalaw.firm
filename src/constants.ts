@@ -7,7 +7,8 @@ export const LAWYERS: Lawyer[] = [
     name: { ar: "الأستاذ محمد البراء", en: "Mohammed Al-Baraa, KC" },
     role: { ar: "المستشار العام والعضو المنتدب", en: "Senior Principal & Managing Director" },
     spec: { ar: "التحكيم الدولي والنزاعات السيادية", en: "International Arbitration & Sovereign Disputes" },
-    years: { ar: "نتاج ٣٥ عاماً من الحصافة القانونية", en: "35 Years of Legal Mastery" },
+    years: { ar: "٣٥ عاماً من الحصافة القانونية", en: "35 Years of Legal Mastery" },
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
     bio: {
       ar: "فقيه قانوني دولي مرموق، يُعد من القلائل الذين صاغوا ملامح التحكيم التجاري والسيادي في المنطقة العربية. تولى تمثيل حكومات ودول عظمى أمام محكمة العدل الدولية، مشيداً إرثاً من الانتصارات التي لا تقبل الجدل.",
       en: "A preeminent legal scholar whose influence has shaped the landscape of international and sovereign arbitration. Representing world governments before the ICJ, he has architected a legacy of indisputable legal triumphs."
@@ -23,16 +24,17 @@ export const LAWYERS: Lawyer[] = [
     badge: "س",
     name: { ar: "الأستاذة سارة العلي", en: "Sara Al-Ali" },
     role: { ar: "رئيسة قطاع الثروات الخاصة والأسر الحاكمة", en: "Head of Private Wealth & Dynastic Affairs" },
-    spec: { ar: "هندسة الأصول وحماية الثروات العائلية", en: "Private Asset Architecture & Dynastic Guardianship" },
+    spec: { ar: "تنظيم الأصول وحماية الثروات العائلية", en: "Private Asset Architecture & Dynastic Guardianship" },
     years: { ar: "٢٨ عاماً من الدقة الاستشارية", en: "28 Years of Consultative Precision" },
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop",
     bio: {
-      ar: "خبيرة استراتيجية في حماية الأصول السيادية والعائلية، تختص في صياغة هياكل قانونية معقدة بخصوصية مطلقة لضمان استدامة الثروات عبر الأجيال في بيئة دولية متغيرة.",
+      ar: "خبيرة استراتيجية في حماية الأصول السيادية والعائلية، تختص في صياغة أطر قانونية معقدة بخصوصية مطلقة لضمان استدامة الثروات عبر الأجيال في بيئة دولية متغيرة.",
       en: "A strategic architect in the preservation of sovereign and dynastic assets, specializing in crafting complex legal frameworks with absolute discretion to ensure generational wealth sustainability."
     },
     edu: ["Oxford University — BCL", "London School of Economics — LLM in Global Finance", "University of Jordan — LLB"],
     certs: { ar: "عضو مجلس المرأة القانونيات الدولي، خبيرة تخطيط الثروات المعتمدة عالمياً", en: "Member of International Women Lawyers Council, Global Certified Wealth Architect" },
-    expertise: { ar: "هياكل الإرث العابرة للحدود، صناديق الثروة، وصاية الأصول", en: "Cross-Border Inheritance, Wealth Funds, Asset Stewardship" },
-    cases: { ar: "إعادة هيكلة أصول أسرة حاكمة — نصف مليار دولار", en: "Sovereign Family Asset Restructuring — $500M+" },
+    expertise: { ar: "أطر الإرث العابرة للحدود، صناديق الثروة، وصاية الأصول", en: "Cross-Border Inheritance, Wealth Funds, Asset Stewardship" },
+    cases: { ar: "إعادة تنظيم أصول أسرة حاكمة — نصف مليار دولار", en: "Sovereign Family Asset Restructuring — $500M+" },
     contact: "s.alali@al-baraa.law"
   },
   {
@@ -42,6 +44,7 @@ export const LAWYERS: Lawyer[] = [
     role: { ar: "شريك أول — الاندماج والاستحواذ الضخم", en: "Senior Partner — Monumental M&A" },
     spec: { ar: "حوكمة الشركات الكبرى والصفقات العابرة للقارات", en: "Global Corporate Governance & Continental Transactions" },
     years: { ar: "٢٢ عاماً من الريادة المؤسسية", en: "22 Years of Institutional Leadership" },
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
     bio: {
       ar: "قائد عمليات الاندماج والاستحواذ الأكثر تعقيداً على مستوى المنطقة، أشرف على صفقات تتجاوز قيمتها الإجمالية ١٥ مليار دولار، محولاً المفاوضات الشاقة إلى نجاحات تجارية باهرة.",
       en: "Orchestrator of the region's most intricate M&A operations, overseeing transactions exceeding $15 billion, transforming high-stakes negotiations into remarkable commercial successes."
@@ -82,7 +85,7 @@ export const PRACTICES: PracticeArea[] = [
     icon: "⚖",
     tag: { ar: "النخبة القانونية", en: "LEGAL ELITE" },
     title: { ar: "التحكيم الدولي والنزاعات السيادية", en: "International Arbitration & Sovereign Disputes" },
-    desc: { ar: "هندسة استراتيجيات الدفاع والهجوم أمام المحاكم الدولية وهيئات التحكيم المرموقة لضمان التفوق المطلق.", en: "Architecting high-stakes defense and offensive strategies before international courts and elite arbitration tribunals." },
+    desc: { ar: "صياغة استراتيجيات الدفاع والتمثيل أمام المحاكم الدولية وهيئات التحكيم المرموقة لضمان التفوق المطلق.", en: "Architecting high-stakes defense and offensive strategies before international courts and elite arbitration tribunals." },
     capabilities: [
       { ar: "التحكيم التجاري والاستثماري", en: "Commercial & Investment Arbitration" },
       { ar: "نزاعات المعاهدات الدولية", en: "International Treaty Disputes" },
@@ -95,9 +98,9 @@ export const PRACTICES: PracticeArea[] = [
     icon: "🏰",
     tag: { ar: "الحكاية والإرث", en: "DYNASTY & LEGACY" },
     title: { ar: "قانون الأسر الحاكمة والثروات الخاصة", en: "Dynastic Law & Private Wealth Architecture" },
-    desc: { ar: "حماية الخصوصية المطلقة وهيكلة الأصول العالمية لضمان استمرارية النفوذ والثروة عبر الأجيال.", en: "Protecting absolute privacy and structuring global assets to ensure the continuity of influence and wealth across generations." },
+    desc: { ar: "حماية الخصوصية المطلقة وتنظيم الأصول العالمية لضمان استمرارية النفوذ والثروة عبر الأجيال.", en: "Protecting absolute privacy and structuring global assets to ensure the continuity of influence and wealth across generations." },
     capabilities: [
-      { ar: "هيكلة الأوقاف والصناديق العائلية", en: "Family Trusts & Endowment Structuring" },
+      { ar: "تنظيم الأوقاف والصناديق العائلية", en: "Family Trusts & Endowment Structuring" },
       { ar: "إدارة الحصانات والكيانات السيادية", en: "Sovereign Entities & Immunities" },
       { ar: "تخطيط الثروات العابرة للحدود", en: "Transcontinental Wealth Planning" }
     ]
@@ -113,6 +116,84 @@ export const PRACTICES: PracticeArea[] = [
       { ar: "حوكمة الشركات المسجلة دولياً", en: "Governance of Multi-Jurisdictional Entities" },
       { ar: "عمليات الاستحواذ العابر للقارات", en: "Transcontinental Acquisitions" },
       { ar: "تمويل المشاريع الاستراتيجية", en: "Strategic Project Finance" }
+    ]
+  },
+  {
+    id: "labour",
+    num: "04",
+    icon: "🤝",
+    tag: { ar: "علاقات العمل", en: "LABOUR RELATIONS" },
+    title: { ar: "قانون العمل والنزاعات العمالية", en: "Labour Law & Employment Disputes" },
+    desc: { ar: "تقديم استشارات شاملة في صياغة عقود العمل وإدارة النزاعات العمالية لضمان الامتثال للتشريعات المحلية والدولية.", en: "Providing comprehensive counsel in employment contracts and dispute management to ensure compliance." },
+    capabilities: [
+      { ar: "صياغة عقود العمل التخصصية", en: "Drafting Specialized Employment Contracts" },
+      { ar: "التمثيل في النزاعات العمالية", en: "Representation in Labour Disputes" },
+      { ar: "سياسات الامتثال والموارد البشرية", en: "Compliance & HR Policies" }
+    ]
+  },
+  {
+    id: "criminal",
+    num: "05",
+    icon: "🛡",
+    tag: { ar: "الدفاع الجنائي", en: "CRIMINAL DEFENCE" },
+    title: { ar: "القانون الجنائي والجرائم الاقتصادية", en: "Criminal Law & Financial Crimes" },
+    desc: { ar: "دفاع استراتيجي في القضايا الجنائية المعقدة وجرائم الأموال، مع التركيز على حماية السمعة والكيان القانوني.", en: "Strategic defense in complex criminal cases and financial crimes, focusing on reputation protection." },
+    capabilities: [
+      { ar: "التمثيل في الجرائم الاقتصادية", en: "White-Collar Crime Representation" },
+      { ar: "التحقيقات الجنائية الدولية", en: "International Criminal Investigations" },
+      { ar: "دفاع النخبة في القضايا الحرجة", en: "High-Profile Criminal Defense" }
+    ]
+  },
+  {
+    id: "sharia",
+    num: "06",
+    icon: "📜",
+    tag: { ar: "الأحوال الشخصية", en: "PERSONAL STATUS" },
+    title: { ar: "القانون الشرعي وقضايا الأسرة", en: "Sharia Law & Family Matters" },
+    desc: { ar: "حلول قانونية تراعي الضوابط الشرعية في قضايا الميراث، الأوقاف، والأحوال الشخصية للنخبة.", en: "Legal solutions adhering to Sharia in inheritance, endowments, and personal status cases for the elite." },
+    capabilities: [
+      { ar: "تنظيم التركات والمواريث معقدة", en: "Complex Estate & Inheritance Structuring" },
+      { ar: "قضايا الأوقاف والوصايا", en: "Endowment & Will Management" },
+      { ar: "التحكيم في منازعات الأسرة", en: "Family Dispute Arbitration" }
+    ]
+  },
+  {
+    id: "insurance",
+    num: "07",
+    icon: "☂",
+    tag: { ar: "إدارة المخاطر", en: "RISK MANAGEMENT" },
+    title: { ar: "قانون التأمين والدعاوى التعويضية", en: "Insurance Law & Claims" },
+    desc: { ar: "تمثيل كبار الموكلين في مطالبات التأمين الضخمة وإدارة النزاعات المتعلقة بإعادة التأمين.", en: "Representing major clients in substantial insurance claims and reinsurance disputes." },
+    capabilities: [
+      { ar: "نزاعات إعادة التأمين الدولية", en: "International Reinsurance Disputes" },
+      { ar: "مطالبات الأضرار الجسيمة", en: "Substantial Liability Claims" },
+      { ar: "استشارات سياسات التغطية", en: "Coverage Policy Consultation" }
+    ]
+  },
+  {
+    id: "realestate",
+    num: "08",
+    icon: "🏙",
+    tag: { ar: "الأصول العقارية", en: "REAL ESTATE ASSETS" },
+    title: { ar: "قانون العقارات والاستثمارات الإنشائية", en: "Real Estate Law & Development" },
+    desc: { ar: "تأمين المعاملات العقارية الكبرى وتطوير المشاريع الضخمة بضمانات قانونية متكاملة.", en: "Securing major real estate transactions and large-scale developments." },
+    capabilities: [
+      { ar: "عقود الفيديك والمقاولات الدولية", en: "FIDIC & International Construction Contracts" },
+      { ar: "تمويل الاستثمارات العقارية", en: "Real Estate Investment Finance" },
+      { ar: "نزاعات الملكية والحقوق العينية", en: "Property Rights & Disputes" }
+    ]
+  },
+  {
+    id: "consult",
+    num: "09",
+    icon: "🏛",
+    tag: { ar: "الفكر القانوني", en: "LEGAL INTELLIGENCE" },
+    title: { ar: "الاستشارات القانونية والدراسات", en: "Legal Consultation & Advisory" },
+    desc: { ar: "تقديم إحاطات قانونية استباقية ودراسات استشرافية للتشريعات وتأثيرها على الأعمال.", en: "Providing proactive legal briefings and forward-looking legislative studies." },
+    capabilities: [
+      { ar: "صياغة التشريعات واللوائح", en: "Drafting Legislation & Regulations" },
+      { ar: "دراسات الجدوى القانونية", en: "Legal Feasibility Studies" },
+      { ar: "إدارة الامتثال السيادي", en: "Sovereign Compliance Management" }
     ]
   }
 ];
@@ -159,7 +240,7 @@ export const WHY_US = [
     desc: { ar: "نطبق معايير أمنية سيادية لحماية كافة البيانات والاتصالات القانونية الحساسة.", en: "Applying sovereign-grade security standards to protect all sensitive legal data and communications." }
   },
   {
-    title: { ar: "هندسة الحلول القانونية النوعية", en: "Specialized Legal Architecture" },
+    title: { ar: "صياغة الحلول القانونية النوعية", en: "Specialized Legal Architecture" },
     desc: { ar: "نصمم بنية قانونية فريدة لكل نزاع تضمن الريادة والسيادة للموكلين.", en: "We architect unique legal structures for every dispute to ensure dominance and sovereignty for our clients." }
   }
 ];
@@ -178,6 +259,6 @@ export const BRIEFINGS: Briefing[] = [
   {
     date: "Jan 2024",
     title: { ar: "إعادة تعريف حماية الأصول العائلية في الأنظمة الضريبية الجديدة", en: "Redefining Dynastic Asset Protection in Emerging Tax Regimes" },
-    category: { ar: "هيكلة الثروات", en: "Wealth Architecture" }
+    category: { ar: "إدارة الثروات", en: "Wealth Architecture" }
   }
 ];

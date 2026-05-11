@@ -16,6 +16,7 @@ export interface Lawyer {
   cases: LocText;
   contact: string;
   badge: string;
+  image?: string;
 }
 
 export interface LandmarkCase {
